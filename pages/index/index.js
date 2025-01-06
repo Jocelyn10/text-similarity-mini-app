@@ -1,5 +1,5 @@
 Page({
-  handlePhoneNumberChecker(){
+  handleTextSimilarityChecker(){
     const {
       BASE_URL,
       API_KEY

@@ -1,9 +1,9 @@
 
 <view>
-  Bienvenue sur Phone Number Checker pour vérifier la validité des numéros de téléphone
+  Faites le test de similarité de vos textes
 </view>
 
 <view>
-  <ant-input placeholder="Saisir le numéro téléphone avec le code du pays. Example: +243814449163" allowClear />
-  <ant-button type="primary" onTap="handlePhoneNumberChecker">Vérifier</ant-button>
+  <ant-input placeholder="Saisir un text" allowClear />
+  <ant-button type="primary" onTap="handleTextSimilarityChecker">Vérifier</ant-button>
 </view>
