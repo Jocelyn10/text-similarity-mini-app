@@ -1,0 +1,11 @@
+{
+  "subPackageBuildType": "shared",
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "defaultTitle": "Phone Number Checker",
+    "pullRefresh": false,
+    "titleBarColor": "#FF0000"
+  }
+}
