@@ -5,17 +5,18 @@ Page({
       API_KEY
     } = getApp()
 
-    const phoneNumber = '+243814449163'
+    const text1 = 'This is an example sentence.'
+    const text2 = 'This is just another example sentence.'
 
-    const URL = `${BASE_URL}/validatephone?number=${phoneNumber}`
+    const URL = `${BASE_URL}/textsimilarity`
 
     my.request({
       url: URL,
-      method: 'GET',
+      method: 'POST',
       headers: {
         'X-Api-Key': API_KEY
       },
-      contentType: 'application/json',
+      data: JSON.stringify({ "text_1": text1, "text_2": text2 }),
 
       success: function(response){
         console.log('Response : ', response);
